@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8f6">
+    <title>AI免证 · 交互演示</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div class="preview">
+      <div class="phone" aria-label="AI免证手机界面">
+        <div class="status-bar" aria-hidden="true">
+          <span class="clock">9:41</span>
+          <div class="status-icons" id="status-icons"></div>
+        </div>
+        <main id="app" class="screen" aria-label="登录"></main>
+        <div class="home-indicator" aria-hidden="true"><span></span></div>
+      </div>
+      <aside class="preview-note" aria-label="演示说明">
+        <p>交互演示 · 不采集麦克风，不调用真实账号或云模型</p>
+        <p>演示账号 <strong>name@example.com</strong> · 密码 <strong>demo123456</strong></p>
+      </aside>
+    </div>
+  </body>
+</html>

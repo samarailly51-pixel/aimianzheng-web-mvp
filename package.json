@@ -1,0 +1,11 @@
+{
+  "name": "aimianzheng-web-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "check": "node --check serve.mjs && node --check dist/app.js"
+  },
+  "engines": { "node": ">=20" }
+}
